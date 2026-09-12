@@ -13,7 +13,7 @@ def imprimir_matriz(titulo, matriz, formato="{:8.2f}"):
     for fila in matriz:
         print(" ".join(formato.format(valor) for valor in fila))
 
-
+# Ejecuta el flujo completo de validación y análisis de carga
 def main():
     cargas = [
         [700, 650, 600, 550],
