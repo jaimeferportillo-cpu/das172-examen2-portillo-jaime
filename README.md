@@ -56,7 +56,9 @@ python -m unittest -v
 - Celdas exactamente al 100 % (no se consideran sobrecarga).
 - Ventanas que no caben en la matriz y tolerancias inválidas.
 - Comprobación de que las entradas permanecen sin cambios.
+## Resultado esperado
 
+El programa identifica las celdas sobrecargadas, calcula el peso total por fila, determina el desbalance lateral y muestra si la distribución de carga es aprobada o rechazada.
 ## Historial de commits sugerido
 
 El requisito de cinco commits debe realizarse de manera auténtica y progresiva al trabajar en GitHub. Secuencia recomendada:
