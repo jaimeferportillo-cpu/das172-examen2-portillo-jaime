@@ -70,6 +70,12 @@ class PruebasAeroCargo(unittest.TestCase):
         with self.assertRaises(ValueError):
             evaluar_balance([[1, 2], [3, 4]], -1)
 
-
+    def test_balance_rechazado(self):
+        totales, desbalance, aprobado = evaluar_balance(
+            [[100, 10], [100, 10]], 50
+        )
+        self.assertEqual(totales, [110, 110])
+        self.assertEqual(desbalance, 180)
+        self.assertFalse(aprobado)
 if __name__ == "__main__":
     unittest.main()
