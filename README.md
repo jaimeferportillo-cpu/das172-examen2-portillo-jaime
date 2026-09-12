@@ -1,5 +1,8 @@
 # AeroCargo-Matrix
+## Datos del estudiante
 
+**Nombre:** Jaime Fernando Portillo Linares  
+**Carnet:** PL231163
 Solución del Examen Teórico Unidad II de **Desarrollo de Algoritmos para la Simulación de Sistemas (DAS172)**.
 
 ## Explicación del problema
